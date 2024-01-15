@@ -11,9 +11,129 @@
     font-family: 'Mulish', sans-serif;
 }
 
+/* root colors */
+:root {
+    --theme: #FF5400;
+    --black: #131318;
+    --light: rgba(19, 19, 24, 0.70);
+    --grey: #424247;
+    --ash: #5A5A5D;
+    --input: rgba(19, 19, 24, 0.50);
+
+}
+
 /* background image styles */
 .bgs {
-    background-repeat: no-repeat;
+    
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
+    background-position: center center;
+    border-radius: 1rem;
+}
+
+/* header styles */
+header {
+    width: 73.125rem;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* website title styles */
+.website-title h1 {
+    font-weight: 800;
+    font-size: 2.25rem;
+}
+
+.website-title h1 span {
+    color: var(--theme);
+    -webkit-text-stroke: 0.025rem black;
+
+}
+
+/* nav styles */
+nav {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+    gap: 2.75rem;
+}
+
+nav>ul>li {
+    list-style: none;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: var(--grey);
+}
+
+.home {
+    color: var(--theme);
+}
+
+/* main styles */
+
+
+/* banner styles */
+.banner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/banner.png') no-repeat center;
+    height: 31.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 73.125rem;
+    margin: 0 auto;
+}
+
+
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #FFF;
+    margin-bottom: 1.5rem;
+}
+
+.banner-describe {
+    color: #FFF;
+    width: 42.25rem;
+    text-align: center;
+}
+
+.banner-form {
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.banner-form *{
+    height: 3.25rem;
+    width: 10.875rem;
+    border: 0;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: var(--input);
+    padding: .5rem;
+}
+
+.banner-form > button > *{
+    display: inline;
+    background-color: var(--theme);
+}
+
+.banner-form > button{
+    color: #FFF;
+    font-size: 1rem;
+    background-color: var(--theme);
 }
