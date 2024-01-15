@@ -4,10 +4,16 @@
 
 /* universal styles */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
 }
 
+/* background image styles */
+.bgs {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
