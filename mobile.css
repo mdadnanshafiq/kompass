@@ -321,7 +321,10 @@
     }
 
     footer {
+        width: 375px;
+        
         height: 400px;
+        /* transform: none; */
     }
 
     .footer-title h1 {

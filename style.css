@@ -813,7 +813,7 @@ input[type="email"] {
 /* footer styles */
 
 footer {
-    width: 100vw;
+    width: 73.125rem;
     height: 31.375rem;
     margin: 0 auto;
     background: rgba(19, 19, 24, 0.05);
@@ -822,6 +822,8 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+    /* border: 1px solid red; */
+    /* transform: translateX(10%); */
 }
 
 .footer-title h1 {
@@ -867,6 +869,3 @@ footer hr {
     font-weight: 300;
 }
 
-.temp{
-    display: none;
-}
