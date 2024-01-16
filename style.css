@@ -566,6 +566,11 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all .30s ease-in-out;
+}
+
+.car-image:hover{
+    transform: scale(1.25);
 }
 
 .car-image img{
