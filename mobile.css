@@ -1,0 +1,318 @@
+/* responsive for mobile devices - max-width 600px */
+
+@media screen and (max-width:600px) {
+
+    header {
+        width: 375px;
+        height: 64px;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+
+    .nav1 {
+        display: none;
+    }
+
+    .nav2 {
+        display: block;
+
+    }
+
+    section {
+        width: 335px;
+        padding: 0;
+        margin: 20px auto;
+    }
+
+    .banner {
+        width: 335px;
+        height: 483px;
+    }
+
+    .banner-title {
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+    .banner-container {
+        width: 335px;
+        height: 483px;
+    }
+
+    .banner-describe {
+        width: 304px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .gradient {
+        width: 335px;
+        height: 483px;
+
+
+
+    }
+
+    .banner-container>img {
+        width: 335px;
+        height: 483px;
+
+    }
+
+    .banner-form {
+        flex-direction: column;
+        width: 287px;
+        padding: 16px;
+        align-items: center;
+        gap: 16px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+    }
+
+    .all-title {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .popular {
+        flex-direction: column;
+        width: 375px;
+        align-items: center;
+    }
+
+    .popular-content {
+        width: 335px;
+    }
+
+    .popular-content>* {
+        margin-top: 20px;
+    }
+
+    .popular-content .popular-list {
+        width: 335px;
+
+    }
+
+    .popular-bg {
+        width: 335px;
+        height: 342px;
+    }
+
+    .popular-describe {
+        width: 335px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .destination-describe {
+        width: 309px;
+    }
+
+    .destination-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+
+    .destination-img {
+        height: 176px;
+    }
+
+    .destination-grid img {
+        width: 335px;
+        height: 176px;
+
+    }
+
+    .destination-grid>*:hover {
+        transform: none;
+        transition: all .30s ease-in-out;
+    }
+
+    .why {
+        gap: 3rem;
+    }
+
+    .why-cards {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .why-text {
+        text-align: center;
+    }
+
+    .why-describe {
+        width: 309px;
+    }
+
+    .why-cards .card {
+        width: 335px;
+        height: 289px;
+    }
+
+    .why-cards .card img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .why-cards .card h3 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .why-cards .card p {
+        width: 271px;
+        font-size: 14px;
+    }
+
+    .deal-describe {
+        width: 309px;
+        font-size: 14px;
+    }
+
+    .deal-cards .card-box {
+        width: 335px;
+        height: 500px;
+
+    }
+
+
+    .deal-cards .card-box .card {
+        width: 303px;
+        height: 350px;
+        backdrop-filter: blur(2.5px);
+        position: static;
+        padding: 1rem;
+        margin: auto auto 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+
+    .deal-cards .card-box .card .card-info {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .deal-cards .card-box .card .card-title {
+        font-size: 20px;
+    }
+
+    .deal-cards .card-box .card .card-describe {
+        width: 254px;
+        font-size: 14px;
+    }
+
+    .deal-btn {
+        margin: 10px auto 30px;
+    }
+
+    .car-describe {
+        width: 309px;
+    }
+
+    .car .card {
+        padding: 3rem 1rem;
+    }
+
+    .car-card {
+        flex-direction: column;
+
+    }
+
+    .car-card .card {
+        width: 335px;
+    }
+
+
+    .car-image:hover {
+        transform: none;
+    }
+
+    .video {
+        flex-direction: column;
+    }
+
+    .video-title {
+        width: 248px;
+        line-height: 25px;
+    }
+
+    .video-describe {
+        width: 335px;
+    }
+
+    .video-list {
+        width: 335px;
+        padding-left: 1rem;
+        background: none;
+    }
+
+    .video-embed video {
+        width: 335px;
+        height: 200px;
+
+    }
+
+    .video-embed {
+        width: 335px;
+        height: 200px;
+    }
+
+    .newsletter-container {
+        flex-direction: column;
+    }
+
+    .newsletter-text {
+        width: 370px;
+        padding: 1rem;
+    }
+
+
+    .newsletter-describe {
+        width: 270px;
+    }
+
+    .newsletter hr {
+        width: 288px;
+        height: 1px;
+
+    }
+
+    .newsletter-form form input {
+        width: 288px;
+        height: 52px;
+        margin: auto;
+    }
+
+
+    .newsletter-form form input[type="submit"] {
+        margin-top: 2rem;
+    }
+
+    .newsletter-bg {
+        width: 335px;
+        height: 300px;
+    }
+
+    .coupon {
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+        border-radius: 10.569px;
+
+    }
+
+    .coupon .coupon-link {
+        font-size: 15.854px;
+    }
+
+    .coupon .coupon-amount {
+        font-size: 21.138px;
+    }
+}
