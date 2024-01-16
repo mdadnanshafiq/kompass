@@ -14,6 +14,7 @@
 .all-title {
     font-size: 2.5rem;
     font-weight: 800;
+    color: var(--black);
 }
 
 /* root colors */
@@ -246,7 +247,7 @@ section {
     border: 0;
     margin-bottom: 1.5rem;
     background-repeat: no-repeat !important;
-    
+
 }
 
 .img-1 {
@@ -299,3 +300,72 @@ section {
 }
 
 /* why styles */
+.why {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.why-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.why-text {
+    text-align: center;
+}
+
+.why-describe {
+    width: 40.1875rem;
+    line-height: 1.625rem;
+    color: var(--light);
+    margin-top: 1.5rem;
+}
+
+.why-cards .card {
+    width: 35.8125rem;
+    height: 17.75rem;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    flex-basis: 48%;
+}
+
+.why-cards .card img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.why-cards .card h3 {
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 1rem 0;
+}
+
+.why-cards .card p {
+    width: 30.375rem;
+    color: var(--ash);
+    line-height: 1.625rem;
+}
+
+.why-cards .color1 {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.why-cards .color2 {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.why-cards .color3 {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+/* deal styles */
