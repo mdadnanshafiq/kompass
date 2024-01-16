@@ -482,6 +482,33 @@ section {
     gap: 1.75rem;
 }
 
+.video-title {
+    width: 28rem;
+    line-height: 3.75rem;
+    padding-bottom: 1.5rem;
+}
+
+.video-describe {
+    width: 33.25rem;
+    color: var(--ash);
+    line-height: 1.625rem;
+}
+
+.video-list {
+    width: 32.375rem;
+    color: var(--black);
+    font-weight: 700;
+    line-height: 1.625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 2rem;
+    margin: 2rem auto;
+}
+
+
 .video-embed {
     width: 38.125rem;
     height: 26.5rem;
@@ -489,3 +516,4 @@ section {
     background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
 }
 
+/* newsletter styles */
