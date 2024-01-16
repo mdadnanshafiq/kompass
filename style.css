@@ -124,7 +124,12 @@ nav>ul>li>a {
 }
 
 /* main styles */
-
+body{
+    width: 100%;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+}
 section {
     padding: 3rem 0;
     margin: 0 auto;
@@ -813,7 +818,7 @@ input[type="email"] {
 /* footer styles */
 
 footer {
-    width: 73.125rem;
+    width: 73rem;
     height: 31.375rem;
     margin: 0 auto;
     background: rgba(19, 19, 24, 0.05);
