@@ -369,3 +369,109 @@ section {
 }
 
 /* deal styles */
+.deal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.deal-text {
+    text-align: center;
+}
+
+.deal-describe {
+    width: 40.1875rem;
+    color: var(--light);
+    line-height: 1.625rem;
+    margin: 1.5rem auto 3rem;
+}
+
+.deal-btn {
+    margin-top: 4rem;
+}
+
+.deal-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.deal-cards .card-box {
+    width: 73.125rem;
+    height: 31.25rem;
+    border-radius: 1rem;
+    border: 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.deal-cards .one {
+    background: url(Images/Group\ 39.png), lightgray 50% / cover no-repeat;
+}
+
+.deal-cards .two {
+    background: url(Images/Group\ 39.png), lightgray 50% / cover no-repeat;
+}
+
+.deal-cards .three {
+    background: url(Images/Group\ 40.png), lightgray 50% / cover no-repeat;
+}
+
+.deal-cards .card-box .card {
+    width: 36.1875rem;
+    height: 24.3125rem;
+    border-radius: 1rem;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: relative;
+    padding: 3.12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.deal-cards .card-box .uno {
+    left: 33.5rem;
+}
+
+.deal-cards .card-box .dos {
+    left: 3.5rem;
+}
+
+.deal-cards .card-box .tres {
+    left: 33.5rem;
+}
+
+.deal-cards .card-box .card .card-info {
+    color: var(--ash);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.deal-cards .card-box .card .card-title {
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.deal-cards .card-box .card .card-describe {
+    width: 28.25rem;
+    color: var(--ash);
+    line-height: 1.625rem;
+}
+
+.deal-cards .card-box .card .card-price {
+    color: var(--theme);
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+/* video styles */
