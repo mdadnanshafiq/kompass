@@ -315,4 +315,30 @@
     .coupon .coupon-amount {
         font-size: 21.138px;
     }
+
+    footer {
+        height: 380px;
+    }
+
+    .footer-title h1 {
+        font-size: 21.543px;
+    }
+
+    .footer-describe {
+        width: 287px;
+    }
+
+    .social {
+        width: 174.322px;
+        height: 24px;
+    }
+
+    footer hr {
+        width: 335px;
+        height: 1px;
+    }
+
+    .footer-rights {
+        font-size: 14px;
+    }
 }
