@@ -1,4 +1,5 @@
 /* responsive for mobile devices - max-width 600px */
+/* <!-- Md. Adnan Shafiq | WEB9-1011 --> */
 
 @media screen and (max-width:600px) {
 
@@ -63,6 +64,7 @@
         flex-direction: column;
         width: 287px;
         padding: 16px;
+        margin-top: 5px;
         align-items: center;
         gap: 16px;
         border-radius: 8px;
