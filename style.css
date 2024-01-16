@@ -31,7 +31,7 @@ a:hover{
 
 button{
     cursor: pointer;
-    transition: all .15s;
+    transition: all .15s ease-in-out;
 }
 
 button:hover{
@@ -42,6 +42,7 @@ button:hover{
 
 .unique{
     cursor: pointer;
+    transition: all .15s ease-in-out;
 }
 
 .unique:hover, .unique:hover i, .newsletter .unique:hover{
@@ -232,7 +233,7 @@ section {
     padding: 0.85rem 2.15rem;
     border-radius: 0.5rem;
     background: #FF5400;
-    border: 0;
+    border: .5px solid var(--theme);
 }
 
 /* destination styles */
@@ -280,7 +281,7 @@ section {
     border: 0;
     margin-bottom: 1.5rem;
     background-repeat: no-repeat !important;
-    transition: all .15s ease-in-out;
+    transition: all .30s ease-in-out;
     
 }
 
